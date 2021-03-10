@@ -1,0 +1,28 @@
+{
+  "name": "simple-webpack",
+  "version": "1.0.0",
+  "description": "使用ast实现简单的webpack打包",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelh93/simple-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelh93/simple-webpack/issues"
+  },
+  "homepage": "https://github.com/kelh93/simple-webpack#readme",
+  "dependencies": {
+    "@babel/traverse": "^7.13.0",
+    "babylon": "^6.18.0",
+    "ejs": "^3.1.6",
+    "magic-string": "^0.25.7",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
